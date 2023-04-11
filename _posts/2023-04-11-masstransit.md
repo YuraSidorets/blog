@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Про MassTransit"
-category: blog, development, c#
+category: blog development c#
 ---
 Є такий 'чудовий' проєкт, який додає зручні абстракції над популярними месседж брокерами -- [MassTransit](https://masstransit.io/introduction).
 Сам автор називає його 'an open-source distributed application framework for .NET that provides a consistent abstraction on top of the supported message transports.', але насправді це щось середнє між фреймворком і досить масштабним проєктом.
