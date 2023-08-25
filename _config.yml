@@ -26,7 +26,7 @@ tagline: Stirring Up Innovation, One Line of Code at a Time   # it will display 
 description: Welcome to Yurii's Code Kitchen - Cooking Up Exceptional Software. Here, we serve up the freshest insights in software development, seasoned with practical tips and strategies from industry expert, Yurii. Explore a smorgasbord of topics from agile methodologies to the latest in AI, blockchain, and more. Join us as we stir up innovation, one line of code at a time, feeding your appetite for knowledge and helping you craft delectable software solutions.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://www.yurii.online'
+url: 'https://blog.sydorets.com'
 
 github:
   username: YuraSidorets             # change to your github username
