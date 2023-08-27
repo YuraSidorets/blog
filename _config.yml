@@ -19,9 +19,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Yurii's Code Kitchen Developer Blog                    # the main title
+title: Yurii's Blog                    # the main title
 
-tagline: Stirring Up Innovation, One Line of Code at a Time   # it will display as the sub-title
+tagline: It's Not a Bug, It's a Feature  # it will display as the sub-title
 
 description: Welcome to Yurii's Code Kitchen - Cooking Up Exceptional Software. Here, we serve up the freshest insights in software development, seasoned with practical tips and strategies from industry expert, Yurii. Explore a smorgasbord of topics from agile methodologies to the latest in AI, blockchain, and more. Join us as we stir up innovation, one line of code at a time, feeding your appetite for knowledge and helping you craft delectable software solutions.
 
