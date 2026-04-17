@@ -3,6 +3,7 @@ layout: post
 title: "Building a PR Review Reminder Workflow"
 categories: blog development github actions ai
 tags: [github-actions, automation, azure-devops, ai]
+description: How to build a GitHub agentic workflow that reminds reviewers at the right time using review history, cached state, and Azure DevOps priority.
 lang: en
 permalink: /en/posts/building-pr-review-reminder-workflow/
 ---

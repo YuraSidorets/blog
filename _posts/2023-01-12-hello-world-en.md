@@ -3,6 +3,7 @@ layout: post
 title: "Hello world!"
 category: blog
 tags: [jekyll, github-pages, blog]
+description: First post on getting the blog running with Jekyll and GitHub Pages, plus the rough edges around theme setup and a custom domain.
 lang: en
 translation_key: hello-world
 permalink: /en/posts/hello-world/
