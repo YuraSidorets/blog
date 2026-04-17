@@ -3,7 +3,7 @@ layout: post
 title:  "Декілька цікавих IT книжок"
 category: books
 tags: [books, learning, software-engineering]
-description: Короткий список корисних книжок для розробників: DDD, data-intensive systems, .NET memory management, legacy code та інша класика.
+description: "Короткий список корисних книжок для розробників: DDD, data-intensive systems, .NET memory management, legacy code та інша класика."
 lang: uk-UA
 translation_key: books-to-read
 permalink: /uk/posts/books-to-read/

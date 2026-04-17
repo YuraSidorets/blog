@@ -2,7 +2,7 @@
 title: Start Here
 icon: fas fa-compass
 order: 1
-description: A quick guide to the posts worth reading first on the blog, grouped by workflows, architecture, and shorter notes.
+description: "A quick guide to the posts worth reading first on the blog, grouped by workflows, architecture, and shorter notes."
 ---
 
 If you're new to the blog, start with these posts.

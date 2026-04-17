@@ -3,7 +3,7 @@ layout: post
 title:  "Hello world!"
 category: blog
 tags: [jekyll, github-pages, blog]
-description: Перший пост про запуск блогу на Jekyll і GitHub Pages та про те, чому налаштування теми й власного домену зайняло цілий день.
+description: "Перший пост про запуск блогу на Jekyll і GitHub Pages та про те, чому налаштування теми й власного домену зайняло цілий день."
 lang: uk-UA
 translation_key: hello-world
 permalink: /uk/posts/hello-world/

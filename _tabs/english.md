@@ -3,7 +3,7 @@ title: English
 icon: fas fa-globe
 order: 5
 lang: en
-description: English-language posts available on the blog.
+description: "English-language posts available on the blog."
 ---
 Posts available in English.
 

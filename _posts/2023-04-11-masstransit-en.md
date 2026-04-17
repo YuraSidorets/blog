@@ -3,7 +3,7 @@ layout: post
 title: "About MassTransit"
 categories: blog development c#
 tags: [dotnet, messaging, architecture]
-description: A practical and opinionated look at MassTransit, including the benefits, the rough edges, and why its documentation and abstraction can cost real time.
+description: "A practical and opinionated look at MassTransit, including the benefits, the rough edges, and why its documentation and abstraction can cost real time."
 lang: en
 translation_key: mass-transit
 permalink: /en/posts/about-masstransit/

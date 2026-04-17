@@ -3,7 +3,7 @@ layout: post
 title: "A Few IT Books Worth Reading"
 category: books
 tags: [books, learning, software-engineering]
-description: A short list of software engineering and .NET books worth reading, from DDD and data systems to memory management and legacy code.
+description: "A short list of software engineering and .NET books worth reading, from DDD and data systems to memory management and legacy code."
 lang: en
 translation_key: books-to-read
 permalink: /en/posts/books-to-read/

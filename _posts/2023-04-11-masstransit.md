@@ -3,7 +3,7 @@ layout: post
 title:  "Про MassTransit"
 categories: blog development c#
 tags: [dotnet, messaging, architecture]
-description: Практичний і доволі критичний погляд на MassTransit: де він допомагає, де ускладнює життя і чому документація часто підводить.
+description: "Практичний і доволі критичний погляд на MassTransit: де він допомагає, де ускладнює життя і чому документація часто підводить."
 lang: uk-UA
 translation_key: mass-transit
 permalink: /uk/posts/pro-masstransit/
