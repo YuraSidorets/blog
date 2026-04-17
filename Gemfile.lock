@@ -134,7 +134,7 @@ GEM
       ethon (>= 0.18.0)
     tzinfo (1.2.10)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2022.7)
+    tzinfo-data (1.2026.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.4.2)
     wdm (0.2.0)
