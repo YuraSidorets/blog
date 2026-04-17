@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Декілька цікавих IT книжок"
+title: "A Few IT Books Worth Reading"
 category: books
 tags: [books, learning, software-engineering]
-lang: uk-UA
+lang: en
 translation_key: books-to-read
-permalink: /uk/posts/books-to-read/
-hidden: true
+permalink: /en/posts/books-to-read/
 ---
-Хтось цікавився які книжки в своїй сфері я б порадив прочитати.
-Ось декілька:
+Someone asked which books in our field I would actually recommend.
+
+Here are a few:
   - [Designing Data-Intensive Applications by Martin Kleppmann](https://a.co/d/iQZA5ki)
   - [Domain-Driven Design: Tackling Complexity in the Heart of Software by Eric Evans](https://a.co/d/3bpvyNc)
   - [Pro .Net Memory Management: For Better Code, Performance, and Scalability by Konrad Kokosa](https://a.co/d/d6bDTlm)

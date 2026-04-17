@@ -2,6 +2,9 @@
 layout: post
 title: "Building a PR Review Reminder Workflow"
 categories: blog development github actions ai
+tags: [github-actions, automation, azure-devops, ai]
+lang: en
+permalink: /en/posts/building-pr-review-reminder-workflow/
 ---
 
 I wanted a workflow that detects pull requests waiting too long for review and sends a reminder only when it is actually needed.

@@ -1,0 +1,89 @@
+{% assign previous_label = site.data.locales[include.lang].post.button.previous %}
+{% assign next_label = site.data.locales[include.lang].post.button.next %}
+
+{% assign previous_post = page.previous %}
+{% assign next_post = page.next %}
+
+{% if page.lang %}
+  {% assign posts_in_lang = site.posts | where: "lang", page.lang %}
+  {% for post in posts_in_lang %}
+    {% if post.url == page.url %}
+      {% assign previous_index = forloop.index %}
+      {% assign next_index = forloop.index0 | minus: 1 %}
+      {% if previous_index < posts_in_lang.size %}
+        {% assign previous_post = posts_in_lang[previous_index] %}
+      {% else %}
+        {% assign previous_post = nil %}
+      {% endif %}
+      {% if next_index >= 0 %}
+        {% assign next_post = posts_in_lang[next_index] %}
+      {% else %}
+        {% assign next_post = nil %}
+      {% endif %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if page.translation_key %}
+  {% assign translations = site.posts | where: "translation_key", page.translation_key | sort: "lang" %}
+{% else %}
+  {% assign translations = '' | split: '' %}
+{% endif %}
+
+{% if translations.size > 1 %}
+  {% if include.lang == 'uk-UA' %}
+    {% assign language_label = 'Мова:' %}
+  {% else %}
+    {% assign language_label = 'Language:' %}
+  {% endif %}
+
+  <div class="d-flex flex-wrap align-items-center gap-2 mt-5 mb-4">
+    <span class="text-muted small">{{ language_label }}</span>
+    {% for post in translations %}
+      {% if post.lang == 'uk-UA' %}
+        {% assign lang_name = 'Українська' %}
+      {% elsif post.lang == 'en' %}
+        {% assign lang_name = 'English' %}
+      {% else %}
+        {% assign lang_name = post.lang %}
+      {% endif %}
+
+      {% if post.url == page.url %}
+        <span class="badge text-bg-primary">{{ lang_name }}</span>
+      {% else %}
+        <a class="badge border text-body text-decoration-none" href="{{ post.url | relative_url }}">{{ lang_name }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+<nav class="row row-cols-1 row-cols-md-2 g-3 mt-1">
+  <div class="col">
+    {% if previous_post %}
+      <a class="btn btn-outline-primary w-100 h-100 text-start" href="{{ previous_post.url | relative_url }}">
+        <div class="small text-muted">{{ previous_label }}</div>
+        <div>{{ previous_post.title }}</div>
+      </a>
+    {% else %}
+      <span class="btn btn-outline-secondary disabled w-100 h-100 text-start">
+        <div class="small text-muted">{{ previous_label }}</div>
+        <div>-</div>
+      </span>
+    {% endif %}
+  </div>
+
+  <div class="col">
+    {% if next_post %}
+      <a class="btn btn-outline-primary w-100 h-100 text-start" href="{{ next_post.url | relative_url }}">
+        <div class="small text-muted">{{ next_label }}</div>
+        <div>{{ next_post.title }}</div>
+      </a>
+    {% else %}
+      <span class="btn btn-outline-secondary disabled w-100 h-100 text-start">
+        <div class="small text-muted">{{ next_label }}</div>
+        <div>-</div>
+      </span>
+    {% endif %}
+  </div>
+</nav>

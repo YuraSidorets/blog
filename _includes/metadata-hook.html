@@ -1,0 +1,10 @@
+{% if page.translation_key %}
+  {% assign translations = site.posts | where: "translation_key", page.translation_key %}
+  {% if translations.size > 1 %}
+    {% assign default_translation = translations | where: "lang", "en" | first | default: page %}
+    {% for post in translations %}
+      <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url | absolute_url }}">
+    {% endfor %}
+    <link rel="alternate" hreflang="x-default" href="{{ default_translation.url | absolute_url }}">
+  {% endif %}
+{% endif %}

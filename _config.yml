@@ -10,20 +10,20 @@ baseurl: ''
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: uk-UA
+lang: en
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Europe/Budapest
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: Yurii's Blog                    # the main title
 
-tagline: It's Not a Bug, It's a Feature  # it will display as the sub-title
+tagline: Practical notes on .NET, testing, and workflow automation  # it will display as the sub-title
 
-description: Welcome to Yurii's Code Kitchen - Cooking Up Exceptional Software. Here, we serve up the freshest insights in software development, seasoned with practical tips and strategies from industry expert, Yurii. Explore a smorgasbord of topics from agile methodologies to the latest in AI, blockchain, and more. Join us as we stir up innovation, one line of code at a time, feeding your appetite for knowledge and helping you craft delectable software solutions.
+description: Engineering notes on .NET, testing, automation, architecture, and the occasional book list. Mostly practical posts about building software, debugging messy systems, and making workflows less painful.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://blog.sydorets.com'

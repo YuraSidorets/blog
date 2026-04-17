@@ -2,6 +2,9 @@
 layout: post
 title: "Building a Bug Reproducer Workflow with Playwright"
 categories: blog development github actions ai testing
+tags: [github-actions, automation, azure-devops, playwright]
+lang: en
+permalink: /en/posts/building-bug-reproducer-workflow/
 ---
 
 The goal for this workflow was straightforward: take fresh bug reports, figure out which ones are concrete enough to automate, and run a browser-based reproduction against the existing test setup.

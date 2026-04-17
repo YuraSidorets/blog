@@ -2,6 +2,11 @@
 layout: post
 title:  "Hello world!"
 category: blog
+tags: [jekyll, github-pages, blog]
+lang: uk-UA
+translation_key: hello-world
+permalink: /uk/posts/hello-world/
+hidden: true
 ---
 >"The roof, the roof, the roof is on fire  
 >We don't need no water, let the motherfucker burn  
