@@ -23,8 +23,7 @@ search:
   no_results: Ох! Нічого не знайдено.
 
 panel:
-  lastmod: Нещодавно оновлено
-  trending_tags: Популярні теги
+  trending_tags: Теми
   toc: Зміст
 
 copyright:
