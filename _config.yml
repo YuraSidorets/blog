@@ -21,7 +21,7 @@ timezone: Europe/Budapest
 
 title: Yurii's Blog                    # the main title
 
-tagline: Practical notes on .NET, testing, and workflow automation  # it will display as the sub-title
+tagline: Notes on software, technology, and everything else  # it will display as the sub-title
 
 description: Engineering notes on .NET, testing, automation, architecture, and the occasional book list. Mostly practical posts about building software, debugging messy systems, and making workflows less painful.
 
