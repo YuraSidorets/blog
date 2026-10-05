@@ -3,7 +3,8 @@ layout: post
 title: "Why Thinking, Fast and Slow Is Harder for Me to Read After AI"
 date: 2026-10-05
 lang: en
-translation_key: thinking-fast-slow-contrast-framing-en
+translation_key: thinking-fast-slow-contrast-framing
+permalink: /en/posts/thinking-fast-slow-contrast-framing/
 hidden: false
 ---
 
