@@ -5,6 +5,6 @@ order: 6
 
 # Interesting Blogs
 
-A curated list of interesting blogs I read across various topics including technology, psychology, philosophy, and science.
+Here are some of my favourite tech blogs.
 
-[Read more →](/interesting-blogs/)
+[Read more →](/en/posts/interesting-blogs/)
