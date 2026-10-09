@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: post
 title: "Interesting Blogs"
-date: 2026-10-08
+date: 2026-10-09
 lang: en
 translation_key: interesting-blogs-en
-permalink: /interesting-blogs/
+permalink: /en/posts/interesting-blogs/
 hidden: false
 ---
 
