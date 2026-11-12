@@ -14,6 +14,8 @@ This list contains blogs I find particularly interesting and useful. They cover 
 
 #### [Hacker News](https://news.ycombinator.com/)
 
+#### [Petar Zayakov](https://petarzayakov.com/blog/)
+
 #### [Julia Evans](https://jvns.ca/)
 
 #### [Takuya Matsuyama](https://www.craftz.dog/)
