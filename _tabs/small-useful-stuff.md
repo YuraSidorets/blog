@@ -3,7 +3,7 @@ icon: fa-solid fa-toolbox
 order: 5
 ---
 
-## Reset Docker ports on Windows
+# Reset Docker ports on Windows
 
 If Docker container ports are reserved on Windows, run these commands to reset:
 
@@ -12,7 +12,7 @@ net stop winnat
 net start winnat
 ```
 
-## List powershell variables
+## List PowerShell variables
 
 ```powershell
 gci env:* | sort-object name

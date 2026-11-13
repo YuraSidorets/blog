@@ -4,7 +4,6 @@ title: "Interesting Blogs"
 date: 2026-10-08
 lang: en
 translation_key: interesting-blogs-en
-permalink: /interesting-blogs/
 hidden: false
 ---
 
