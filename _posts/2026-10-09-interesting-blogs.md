@@ -1,10 +1,18 @@
 ---
+<<<<<<< HEAD
 layout: post
 title: "Interesting Blogs"
 date: 2026-10-09
 lang: en
 translation_key: interesting-blogs-en
 permalink: /en/posts/interesting-blogs/
+=======
+layout: page
+title: "Interesting Blogs"
+date: 2026-10-08
+lang: en
+translation_key: interesting-blogs-en
+>>>>>>> interesting-blogs
 hidden: false
 ---
 
@@ -14,6 +22,11 @@ This list contains blogs I find particularly interesting and useful. They cover 
 
 #### [Hacker News](https://news.ycombinator.com/)
 
+<<<<<<< HEAD
+=======
+#### [Petar Zayakov](https://petarzayakov.com/blog/)
+
+>>>>>>> interesting-blogs
 #### [Julia Evans](https://jvns.ca/)
 
 #### [Takuya Matsuyama](https://www.craftz.dog/)
