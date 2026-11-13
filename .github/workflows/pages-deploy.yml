@@ -35,6 +35,18 @@ jobs:
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
           # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
+      - name: Check for unresolved merge conflicts
+        run: |
+          if git grep -n -I -E '^(<{7}|={7}|>{7}|\|{7})( |$)' -- .; then
+            echo "Unresolved merge conflicts found in tracked files."
+            exit 1
+          else
+            status=$?
+            if [ "$status" -ne 1 ]; then
+              exit "$status"
+            fi
+          fi
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6

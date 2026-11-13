@@ -3,13 +3,6 @@ icon: fas fa-blog
 order: 6
 ---
 
-<<<<<<< HEAD
-# Interesting Blogs
-
-Here are some of my favourite tech blogs.
-
-[Read more →](/en/posts/interesting-blogs/)
-=======
 This list contains blogs I find particularly interesting and useful. They cover various topics from technology to psychology and the art of thinking.
 
 #### [Hacker News](https://news.ycombinator.com/)
@@ -89,4 +82,3 @@ This list contains blogs I find particularly interesting and useful. They cover 
 #### [Enterprise Craftsmanship](https://enterprisecraftsmanship.com/posts/)
 
 #### [Mark Seemann](https://blog.ploeh.dk/)
->>>>>>> interesting-blogs
