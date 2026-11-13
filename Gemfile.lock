@@ -42,7 +42,11 @@ GEM
       bigdecimal
       rake (~> 13.3)
     hashery (2.1.2)
+<<<<<<< HEAD
     html-proofer (5.2.2)
+=======
+    html-proofer (5.2.3)
+>>>>>>> interesting-blogs
       addressable (~> 2.3)
       async (~> 2.1)
       benchmark (~> 0.5)
@@ -144,7 +148,15 @@ GEM
       ethon (>= 0.18.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+<<<<<<< HEAD
     tzinfo-data (1.2026.6)
+=======
+<<<<<<< HEAD
+    tzinfo-data (1.2026.5)
+=======
+    tzinfo-data (1.2026.4)
+>>>>>>> interesting-blogs
+>>>>>>> eb6c45aaa2cf6f88863da64a67ec4e24a39b670c
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
     wdm (0.2.0)
